@@ -57,6 +57,5 @@ myLabel3 = Label(root, text="jhghfgdfgfd+empty").grid(row = 1, column = 1)
 '''
 # the changes of column of label2 does not changes as there are not any texts to assign
 '''
-
 root.mainloop()
 
