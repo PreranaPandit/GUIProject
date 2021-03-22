@@ -11,22 +11,22 @@ root.title('Images Insertion')
 root.iconbitmap('E:/images/global.ico')
 
 '''
-#Adding frame in the program
-frame = LabelFrame(root, text="My Frame", padx=5, pady=5)
-frame.pack(padx=10,pady=10)
+#Adding Frame in the program
+Frame = LabelFrame(root, text="My Frame", padx=5, pady=5)
+Frame.pack(padx=10,pady=10)
 '''
 
-# padx and pady outside inside of the frame
-#frame = LabelFrame(root, text="My Frame", padx=50, pady=50)
-#frame.pack(padx=10,pady=10)
+# padx and pady outside inside of the Frame
+#Frame = LabelFrame(root, text="My Frame", padx=50, pady=50)
+#Frame.pack(padx=10,pady=10)
 
-#2. can remove the text from frame
+#2. can remove the text from Frame
 frame = LabelFrame(root, padx=50, pady=50)
 frame.pack(padx=10,pady=10)
 
-#Adding button inside the frame
+#Adding button inside the Frame
 '''
-button = Button(frame, text="Don't Click")
+button = Button(Frame, text="Don't Click")
 button.pack()
 '''
 button1 = Button(frame, text="Click this")
