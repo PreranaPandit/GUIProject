@@ -7,8 +7,7 @@ root.title('Message Box')
 root.iconbitmap('E:/images/global.ico')
 
 # showinfo, showwarning, showerror, askquestion, askokcancel, askyesno
-#try all
-
+# try all
 
 def popup():
     #showinfo messagebox
@@ -20,9 +19,8 @@ def popup():
     else:
         Label(root, text="Clicked No").pack()
 
-
-
 Button(root, text="Popup",command=popup).pack()
+
 
 mainloop()
 

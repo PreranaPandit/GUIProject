@@ -48,7 +48,7 @@ root = Tk()
 #creating a label widget
 myLabel1 = Label(root, text="Tkinter Program Beginning").grid(row=0, column=0)
 myLabel2 = Label(root, text="I am Prerana Pandit").grid(row=1, column=5)
-myLabel3 = Label(root, text="jhghfgdfgfd+empty").grid(row=1, column=1)
+myLabel3 = Label(root, text="jhghfgdfgfd     ").grid(row=1, column=1)
 
 #Shoving it onto the sreen based upon x-axis and y-axis that does not move having a constant position
 # myLabel1.grid(row=0, column=0)

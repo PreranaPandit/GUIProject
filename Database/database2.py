@@ -46,6 +46,7 @@ def submit():
         'state':state.get(),
         'zipcode':zipcode.get()
     })
+    print('Address inserted successfully')
 
     conn.commit()
 

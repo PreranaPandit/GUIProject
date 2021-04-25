@@ -4,7 +4,7 @@ from tkinter import messagebox
 from tkinter import filedialog
 
 root = Tk()
-root.title('Message Box')
+root.title('Dialog Box')
 root.iconbitmap('E:/images/global.ico')
 
 
@@ -23,4 +23,6 @@ def open():
 my_btn = Button(root, text="Open File", command=open).pack()
 
 mainloop()
+
+
 

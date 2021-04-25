@@ -5,7 +5,7 @@ from PIL import ImageTk, Image
 root = Tk()
 
 # title
-root.title('Images Insertion')
+root.title('Radio Button')
 # icon images
 # png icons does not support somoetimes
 root.iconbitmap('E:/images/global.ico')

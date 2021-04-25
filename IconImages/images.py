@@ -7,14 +7,9 @@ root = Tk()
 root.title('Images Insertion')
 
 # icon images
-# png icons does not support somoetimes
+# png icons does not support sometimes
 root.iconbitmap('E:/images/global.ico')
 
-'''
-filen = r'E:/images/medicine.png'
-img = Image.open(filen)
-img.save('icon.ico',format = 'ICO', sizes=[(32,32)])
-'''
-
-
 root.mainloop()
+
+
