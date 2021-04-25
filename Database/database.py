@@ -1,11 +1,8 @@
 from tkinter import *
-from PIL import ImageTk, Image
-from tkinter import messagebox
-from tkinter import filedialog
 import sqlite3
 
 root = Tk()
-root.title('Message Box')
+root.title('Database Address Book')
 root.iconbitmap('E:/images/global.ico')
 
 #Databases
@@ -25,6 +22,7 @@ c.execute(""" CREATE TABLE addresses(
       state text,
       zipcode integer
 ) """)
+print("Table created successfully")
 
 # commit change
 conn.commit()

@@ -1,14 +1,13 @@
 from tkinter import *
 from PIL import ImageTk, Image
 
-
 root = Tk()
 
 # title
 root.title('Images Insertion')
 
 # icon images
-# png icons does not support somoetimes
+# png icons does not support sometimes
 root.iconbitmap('E:/images/global.ico')
 
 my_image1 = ImageTk.PhotoImage(Image.open("E:/images/medicine.png"))

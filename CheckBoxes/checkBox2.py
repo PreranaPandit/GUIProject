@@ -4,7 +4,7 @@ from tkinter import messagebox
 from tkinter import filedialog
 
 root = Tk()
-root.title('Message Box')
+root.title('Check Box')
 root.iconbitmap('E:/images/global.ico')
 
 def show():
