@@ -10,8 +10,10 @@ root.iconbitmap('E:/images/global.ico')
 
 def open():
     global my_image
-    root.filename = filedialog.askopenfilename(initialdir="/Downloads", title="Select a file",
-                                               filetypes=(("png files", "*.png"), ("all files", "*.*")))
+    root.filename = filedialog.askopenfilename(initialdir="/Downloads",
+                                               title="Select a file",
+                                               filetypes=(("png files", "*.png"),
+                                                          ("all files", "*.*")))
 
     # sets the location of the selected image in the label
     my_label = Label(root, text=root.filename).pack()

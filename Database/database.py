@@ -11,6 +11,9 @@ root.iconbitmap('E:/images/global.ico')
 conn = sqlite3.connect('address_book.db')
 
 # Create cursor
+# Cursor class is an instance using which
+# you can invoke methods that execute SQLite statements,
+# fetch data from the result sets of the queries.
 c = conn.cursor()
 
 # Create table

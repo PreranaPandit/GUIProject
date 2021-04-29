@@ -17,7 +17,9 @@ options= [
     "Tuesday",
     "Wednesday",
     "Thursday",
-    "Friday"
+    "Friday",
+    "Saturday",
+    "Sunday"
 ]
 
 clicked = StringVar()

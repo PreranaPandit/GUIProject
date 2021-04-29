@@ -12,7 +12,9 @@ def show():
 
 var = StringVar()
 #anything can be written in on or off string input
-checkButton = Checkbutton(root, text="Check this box!", variable = var, onvalue="On", offvalue="Off")
+checkButton = Checkbutton(root, text="Check this box!",
+                          variable = var, onvalue="On",
+                          offvalue="Off")
 #Automatic selection on check box will be removed
 checkButton.deselect()
 checkButton.pack()

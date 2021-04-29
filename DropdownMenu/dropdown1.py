@@ -11,7 +11,7 @@ def show():
     myLabel = Label(root, text=clicked.get()).pack()
 
 clicked = StringVar()
-clicked.set("Monday")
+clicked.set("No of days")
 
 drop = OptionMenu(root, clicked,"Moday","Tuesday","Wednesday","Thursday","Friday")
 drop.pack()
