@@ -88,17 +88,9 @@ def update():
           'oid': record_id
 
                }
-
     )
-
-
-
-
-
     conn.commit()
-
     conn.close()
-
     #Destroying all the data and closing window
     editor.destroy()
 

@@ -16,6 +16,7 @@ conn = sqlite3.connect('address_book.db')
 # fetch data from the result sets of the queries.
 c = conn.cursor()
 
+
 # Create table
 c.execute(""" CREATE TABLE addresses(
       first_name text,

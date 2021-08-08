@@ -10,7 +10,7 @@ root.title('Images Insertion')
 # png icons does not support sometimes
 root.iconbitmap('E:/images/global.ico')
 
-# root.iconbitmap('education.ico')
+#root.iconbitmap('education.ico')
 
 root.mainloop()
 

@@ -21,5 +21,5 @@ def open():
 btn = Button(root, text="Open", command=open).pack()
 
 
-mainloop()
+root.mainloop()
 

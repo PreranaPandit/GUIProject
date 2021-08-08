@@ -22,6 +22,7 @@ def slide():
 
     root.geometry(str(horizontal.get()) + "x" + str(vertical.get()))
 
+
 #Function called
 my_btn = Button(root, text="Click Me", command=slide).pack()
 

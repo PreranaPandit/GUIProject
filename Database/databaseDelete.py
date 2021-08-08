@@ -144,10 +144,10 @@ city = Entry(root, width=30)
 city.grid(row=3, column=1)
 
 state = Entry(root, width=30)
-state.grid(row=3, column=1)
+state.grid(row=4, column=1)
 
 zipcode = Entry(root, width=30)
-zipcode.grid(row=4, column=1)
+zipcode.grid(row=5, column=1)
 
 delete_box = Entry(root, width=30)
 delete_box.grid(row=9, column=1, pady=5)
@@ -166,11 +166,11 @@ city_label = Label(root, text="City")
 city_label.grid(row=3, column=0)
 
 state_label = Label(root, text="State")
-state_label.grid(row=3, column=0)
+state_label.grid(row=4, column=0)
 
 
 zipcode_label = Label(root, text="Zip Code")
-zipcode_label.grid(row=4, column=0)
+zipcode_label.grid(row=5, column=0)
 
 delete_box_label = Label(root, text="Delete ID")
 delete_box_label.grid(row=9, column=0, pady=5)

@@ -15,8 +15,5 @@ def graph():
 
 my_button = Button(root, text="Graph it", command=graph).pack()
 
-
-
-
 mainloop()
 

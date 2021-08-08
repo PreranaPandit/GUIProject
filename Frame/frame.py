@@ -7,7 +7,7 @@ root = Tk()
 # title
 root.title('Images Insertion')
 # icon images
-# png icons does not support somoetimes
+# png icons does not support sometimes
 root.iconbitmap('E:/images/global.ico')
 
 '''

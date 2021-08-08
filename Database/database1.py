@@ -26,6 +26,7 @@ c.execute(""" CREATE TABLE addresses(
       state text,
       zipcode integer
 ) """)
+
 '''
 
 # Create submit button for databases
@@ -54,10 +55,10 @@ city = Entry(root, width=30)
 city.grid(row=3, column=1)
 
 state = Entry(root, width=30)
-state.grid(row=3, column=1)
+state.grid(row=4, column=1)
 
 zipcode = Entry(root, width=30)
-zipcode.grid(row=4, column=1)
+zipcode.grid(row=5, column=1)
 
 # Create textbox labels
 f_name_label = Label(root, text="First Name")
@@ -73,11 +74,11 @@ city_label = Label(root, text="City")
 city_label.grid(row=3, column=0)
 
 state_label = Label(root, text="State")
-state_label.grid(row=3, column=0)
+state_label.grid(row=4, column=0)
 
 
 zipcode_label = Label(root, text="Zip Code")
-zipcode_label.grid(row=4, column=0)
+zipcode_label.grid(row=5, column=0)
 
 # Create submit button
 

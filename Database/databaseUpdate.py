@@ -62,7 +62,7 @@ def delete():
     conn.close()
 
 # Create edit function to update a record
-def update():
+def edit():
     editor = Tk()
     editor.title('Update Data')
     editor.iconbitmap('E:/images/global.ico')
@@ -138,7 +138,7 @@ def update():
 
 
     # Create a update button
-    edit_btn = Button(editor, text=" SAVE ", command=update)
+    edit_btn = Button(editor, text=" SAVE ")
     edit_btn.grid(row=6, column=0, columnspan=2, pady=10, padx=10, ipadx=125)
 
 
@@ -250,7 +250,7 @@ state_label.grid(row=3, column=0)
 zipcode_label = Label(root, text="Zip Code")
 zipcode_label.grid(row=4, column=0)
 
-delete_box_label = Label(root, text="Delete ID")
+delete_box_label = Label(root, text="Select ID")
 delete_box_label.grid(row=9, column=0, pady=5)
 
 
@@ -270,7 +270,7 @@ delete_btn = Button(root, text="Delete", command=delete)
 delete_btn.grid(row=10, column=0, columnspan=2, pady=10, padx =10, ipadx=120)
 
 # Create a update button
-edit_btn = Button(root, text="Update", command=update)
+edit_btn = Button(root, text="Update", command=edit)
 edit_btn.grid(row=11, column=0, columnspan=2, pady=10, padx =10, ipadx=120)
 
 
